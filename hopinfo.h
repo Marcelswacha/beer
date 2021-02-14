@@ -17,6 +17,8 @@ static const QVector<HopInfo> hopInfoDB {
     {HopInfo{"magnum", 11.5}},
     {HopInfo{"sybilla", 6.0}},
     {HopInfo{"target", 9.0}},
+    {HopInfo{"oktawia", 7.8}},
+    {HopInfo{"chinook PL", 10.0}},
 };
 
 #endif // HOPINFO_H

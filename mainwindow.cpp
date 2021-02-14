@@ -38,7 +38,12 @@ static double density(double blg)
         {17., 1.070},
         {18., 1.074},
         {19., 1.078},
-        {20., 1.083}
+        {20., 1.083},
+        {21., 1.087},
+        {22., 1.092},
+        {23., 1.096},
+        {24., 1.101},
+        {25., 1.106}
     };
 
     for (int i = 1; i < densityMap.size(); ++i) {
@@ -263,9 +268,9 @@ MainWindow::MainWindow(QWidget *parent)
     auto blgLabel = new QLabel("BLG");
     _blg = new QDoubleSpinBox;
     _blg->setValue(13.);
-    _blg->setRange(10, 20);
+    _blg->setRange(6, 35);
 
-    auto effLabel = new QLabel("Wydajność ważelni");
+    auto effLabel = new QLabel("Wydajność warzelni");
     _efficiency = new QDoubleSpinBox;
     _efficiency->setRange(1, 100);
     _efficiency->setValue(75);
